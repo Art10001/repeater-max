@@ -1,5 +1,7 @@
 # Intention Repeater Max
 
+(30/11/21 update: Forked repo. Python version is obsolete, use the C++ one.)
+
 Written in C++, this is the successor to the original Intention Repeater, written in Python.
 
 The code, and the Servitor, were created by Anthro Teacher, aka Thomas Sweet.
