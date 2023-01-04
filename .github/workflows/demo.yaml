@@ -1,0 +1,19 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Repeater compile
+      run: g++ -O3 intention_repeater_max_5.2.cpp
+    - name: Repeater run test
+      run: ./a.out --dur 00:05:00 --intent "I am love"
