@@ -19,4 +19,4 @@ jobs:
     - name: Repeater compile
       run: g++ -O3 intention_repeater_max_5.2.cpp
     - name: Repeater run
-      run: ./a.out --dur 05:58:00 --imem 6 --intent "INTENTIONS.ZIP THANKS"
+      run: ./a.out --dur 05:58:00 --imem 6 --intent "A.7Z THX"
